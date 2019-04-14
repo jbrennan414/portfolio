@@ -1,3 +1,4 @@
+/* DEFAULT STYLES */
 .App {
   text-align: center;
 }
@@ -30,4 +31,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  border: 2px solid black;
 }
