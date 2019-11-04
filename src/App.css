@@ -1,5 +1,9 @@
 /* DEFAULT STYLES */
 /* https://www.canva.com/learn/website-color-schemes/  #5*/
+html {
+  margin: 4em;
+}
+
 .App {
   text-align: center;
 }
@@ -34,10 +38,10 @@
   }
 }
 
+
 /* HEADER */
 .header {
   text-align: center;
-  background-color: #0E0B16;
-  color: #E7DFDD;
-  font-family: 'Roboto';
+  font-family: 'Raleway', sans-serif;
+  color: gray;
 }
