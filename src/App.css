@@ -79,3 +79,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.contactIcons {
+  float: right;
+}
