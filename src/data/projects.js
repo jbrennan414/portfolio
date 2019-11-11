@@ -22,7 +22,13 @@ const projects = [
         "name":"HeismanHangups",
         "description": "🏆 Query Site for Heisman trophy winners. Need to know how many Heisman trophy winners were running backs AND Auburn grads? This is your site!",
         "uses":["react"],
-        "link":"https://github.com/jbrennan414/heisman"
+        "link":"https://github.com/jbrennan414/heisman",
+    },
+    {
+        "name":"Chat-Example",
+        "description": "💬 Chat app to learn Socket.IO, verrrry basic",
+        "uses":["socketio"],
+        "link":"https://github.com/jbrennan414/chat-example",
     }
 ];
 
