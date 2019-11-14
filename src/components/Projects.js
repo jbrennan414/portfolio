@@ -2,14 +2,28 @@ import React, { Component } from 'react';
 import '../App.css';
 import projects from '../data/projects';
 
+const reactLogo = require('../assets/img/react.svg');
+const reduxLogo = require('../assets/img/redux.svg');
+const socketIO = require('../assets/img/socket-io.svg');
+
 export default class Projects extends Component {
 
     renderProjectCard(project, i){
         return (
             <a className="projectCard" href={project.link} key={i}>
-                <h1>{project.name}</h1>
+                <h2>{project.name}</h2>
                 <h3>{project.description}</h3>
-                <h3>{project.uses}</h3>
+                <div>
+                    {project.uses.includes("react") ? (
+                        <img alt="reactLogo" src={reactLogo} height={50} width={50} />
+                    ): ""}
+                    {project.uses.includes("redux") ? (
+                        <img alt="reduxLogo" src={reduxLogo} height={50} width={50} />
+                    ): ""}
+                    {project.uses.includes("socketio") ? (
+                        <img alt="socketIO logo" src={socketIO} height={50} width={50} />
+                    ): ""}
+                </div>
             </a>
         );
     }
