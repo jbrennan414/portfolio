@@ -10,14 +10,16 @@ export default class Bio extends Component {
             <div className="bio">
                 <img alt="headshot" src={headshot} height={300} width={200} />
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br />
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco <br />
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br />
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu <br />
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br />
-                    non proident, sunt in culpa qui officia deserunt mollit <br />
-                    anim id est laborum. 
+                    Hey there, I'm John! I'm a fullstack software developer. <br />
+                    I'm constantly learning new technologies and understanding <br />
+                    older ones! I'm passionate about building elegant, functional <br />
+                    tools for small business and myself. Most of my projects <br />
+                    you'll find below are a utility that I couldn't find online, <br />
+                    I needed an app to decide which 14'er to climb, I wanted to <br />
+                    understand how web sockets work, or I wanted a better way to <br />
+                    query heisman trophy winners, you'll find all of that below! <br />
+                    I do freelance projects periodically, maybe we'd make a good fit, <br />
+                    please don't hesitate to contact me! <br />
                 </p>
             </div>
         );
