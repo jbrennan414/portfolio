@@ -6,7 +6,6 @@ export default class Contact extends Component {
         return (
             <div className="header">
                 <h1>CONTACT</h1>
-                <p>FOOOOO SWAG</p>
             </div>
     );
   }
