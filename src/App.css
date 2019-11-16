@@ -46,6 +46,10 @@ html {
   color: gray;
 }
 
+.header:not(:first-child) { 
+  margin-top: 5em;
+}
+
 .firstHeader {
   text-align: center;
   display:flex;
