@@ -5,6 +5,7 @@ import projects from '../data/projects';
 const reactLogo = require('../assets/img/react.svg');
 const reduxLogo = require('../assets/img/redux.svg');
 const socketIO = require('../assets/img/socket-io.svg');
+const githubLogo = require('../assets/img/github.svg')
 
 export default class Projects extends Component {
 
@@ -23,6 +24,9 @@ export default class Projects extends Component {
                     {project.uses.includes("socketio") ? (
                         <img alt="socketIO logo" src={socketIO} height={50} width={50} />
                     ): ""}
+                </div>
+                <div className="githubLogo">
+                    <img alt="github logo" src={githubLogo} height={25} width={25} />
                 </div>
             </a>
         );

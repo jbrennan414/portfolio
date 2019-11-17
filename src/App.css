@@ -50,6 +50,16 @@ html {
   margin-top: 5em;
 }
 
+.githubLogo{
+  display:flex;
+  justify-content: flex-end;
+  color:gray
+}
+
+#githubLogo:hover{
+  color: black;
+}
+
 .firstHeader {
   text-align: center;
   display:flex;
