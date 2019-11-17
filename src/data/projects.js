@@ -3,7 +3,7 @@ const projects = [
         "name": "CountMeIn",
         "description": "🏈 A clone of Meetup.com, for pickup sports!",
         "uses": ["react", "redux"],
-        "link": "countmein.johnbrennan.codes",
+        "link": "https://countmein.johnbrennan.codes",
     },
     {
         "name": "FindMyFourteener",
@@ -15,7 +15,7 @@ const projects = [
         "name": "WeatherWardrobe",
         "description":"⛅️ A wardrobe picker for me! Uses the openweathermap API to grab climate conditions, then translate that into a wardrobe for the day.",
         "uses":["react"],
-        "link":"weather.johnbrennan.codes",
+        "link":"https://my-weather-wardrobe.netlify.com/",
 
     },
     {
