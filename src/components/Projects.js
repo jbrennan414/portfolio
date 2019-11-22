@@ -26,7 +26,7 @@ export default class Projects extends Component {
                     ): ""}
                 </div>
                 <div className="githubLogo">
-                    <img alt="github logo" src={githubLogo} height={25} width={25} />
+                    <img class="github" alt="github logo" src={githubLogo} height={25} width={25} />
                 </div>
             </a>
         );

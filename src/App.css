@@ -38,6 +38,15 @@ html {
   }
 }
 
+@media screen and (min-width: 500px) {
+  #icons {
+    position:absolute;
+  }
+}
+
+.github:hover {
+  filter: brightness(0%);
+}
 
 /* HEADER */
 .header {
