@@ -26,7 +26,11 @@ export default class Projects extends Component {
                     ): ""}
                 </div>
                 <div className="githubLogo">
-                    <img class="github" alt="github logo" src={githubLogo} height={25} width={25} />
+                    <a href={project.github} id="bottle" onclick="document.location=this.id+'.html';return false;" >
+                        <img class="github" alt="github logo" src={githubLogo} height={25} width={25} />
+                    </a>
+
+
                 </div>
             </a>
         );

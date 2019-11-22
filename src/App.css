@@ -48,6 +48,10 @@ html {
   filter: brightness(0%);
 }
 
+.icons a:hover {
+  border: 1px solid black;
+}
+
 /* HEADER */
 .header {
   text-align: center;
