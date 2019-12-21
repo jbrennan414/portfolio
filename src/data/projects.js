@@ -14,6 +14,13 @@ const projects = [
         "github":"https://github.com/jbrennan414/findmyfourteener"
     },
     {
+        "name": "MovieDatabase",
+        "description": "🎬 This is LevelUpTutorial's into to react tutorial, it's a lot of fun!",
+        "uses":["react"],
+        "link": "https://johnbrennan-lumdb.netlify.com/", 
+        "github":"https://github.com/jbrennan414/lumdb"
+    },
+    {
         "name": "WeatherWardrobe",
         "description":"⛅️ A wardrobe picker for me! Uses the openweathermap API to grab climate conditions, then translate that into a wardrobe for the day.",
         "uses":["react"],
