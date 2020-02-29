@@ -2,7 +2,7 @@ const projects = [
     {
         "name": "WhereI'llBe ⛷",
         "description": "Share your ski calendar with your friends, to carpool or get drinks on the mountain!",
-        "uses":["react","firebase"],
+        "uses":["react","firebase", "redux"],
         "link":"https://whereillbe.com/",
         "github":"https://github.com/jbrennan414/where-ill-be"
 
