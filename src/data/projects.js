@@ -24,7 +24,7 @@ const projects = [
     {
         "name": "MovieDatabase",
         "description": "🎬 This is LevelUpTutorial's into to react tutorial, it's a lot of fun!",
-        "uses":["react"],
+        "uses":["react", "redux"],
         "link": "https://johnbrennan-lumdb.netlify.com/", 
         "github":"https://github.com/jbrennan414/lumdb"
     },
