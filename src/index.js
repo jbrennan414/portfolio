@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './fonts/Raleway-Regular.ttf';
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize("UA-162051859-1");
+    ReactGA.pageview('/');
+}
+
+initializeReactGA();
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
