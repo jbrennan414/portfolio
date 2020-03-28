@@ -7,6 +7,13 @@ const projects = [
         "github":"https://github.com/jbrennan414/where-ill-be"
 
     },
+    {
+        "name": "Coronavirus Tracker 🦠",
+        "description": "This is a first pass at a coronavirus tracker, using Wes Bos' code along on youtube. In the coming weeks I hope to add to this!",
+        "uses":["react"],
+        "link":"https://coronavirus-iota-topaz.now.sh/",
+        "github":"https://github.com/jbrennan414/coronavirus"
+    },
     // {
     //     "name": "CountMeIn",
     //     "description": "🏈 A clone of Meetup.com, for pickup sports!",
