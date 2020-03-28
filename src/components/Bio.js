@@ -5,6 +5,7 @@ export default class Bio extends Component {
     render() {
 
         const headshot = require('../assets/img/John_Brennan.jpg');
+        console.log("trigger a new build")
 
         return (
             <div className="bio">
