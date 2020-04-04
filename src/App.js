@@ -5,7 +5,6 @@ import ContentContainer from './components/ContentContainer';
 
 class App extends Component {
   render() {
-    console.log("IT WORKED")
     return (
       <div className="App">
         <Header />
