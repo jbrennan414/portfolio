@@ -14,6 +14,12 @@ const projects = [
         "link":"https://coronavirus-iota-topaz.now.sh/",
         "github":"https://github.com/jbrennan414/coronavirus"
     },
+    {
+        "name":"Conference Callz  🖥",
+        "description": "Easter is next week and my uncles don't like Google Hangouts or Zoom...so I got to make an instance of Jitsi Meet!",
+        "uses":["jitsi"],
+        "link": "https://conference.johnbrennan.codes",
+    },
     // {
     //     "name": "CountMeIn",
     //     "description": "🏈 A clone of Meetup.com, for pickup sports!",

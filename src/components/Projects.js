@@ -7,6 +7,7 @@ const reduxLogo = require('../assets/img/redux.svg');
 const socketIO = require('../assets/img/socket-io.svg');
 const githubLogo = require('../assets/img/github.svg');
 const firebaseLogo = require('../assets/img/firebase.svg');
+const jitsiLogo = require('../assets/img/jitsi.svg');
 
 export default class Projects extends Component {
 
@@ -26,16 +27,19 @@ export default class Projects extends Component {
                         <img alt="socketIO logo" src={socketIO} height={50} width={50} />
                     ): ""}
                     {project.uses.includes("firebase") ? (
-                        <img alt="socketIO logo" src={firebaseLogo} height={50} width={50} />
+                        <img alt="firebase logo" src={firebaseLogo} height={50} width={50} />
                     ): ""}
+                    {project.uses.includes("jitsi") ? (
+                        <img alt="jitsi logo" src={jitsiLogo} height={50} width={50} />
+                    ):""}
                 </div>
-                <div className="githubLogo">
-                    <a href={project.github} id="bottle" onclick="document.location=this.id+'.html';return false;" >
-                        <img class="github" alt="github logo" src={githubLogo} height={25} width={25} />
-                    </a>
-
-
-                </div>
+                {project && project.github && 
+                    <div className="githubLogo">
+                        <a href={project.github} id="bottle" onclick="document.location=this.id+'.html';return false;" >
+                            <img class="github" alt="github logo" src={githubLogo} height={25} width={25} />
+                        </a>
+                    </div>
+                }
             </a>
         );
     }
