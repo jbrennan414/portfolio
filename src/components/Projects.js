@@ -8,6 +8,7 @@ const socketIO = require('../assets/img/socket-io.svg');
 const githubLogo = require('../assets/img/github.svg');
 const firebaseLogo = require('../assets/img/firebase.svg');
 const jitsiLogo = require('../assets/img/jitsi.svg');
+const ec2Logo = require('../assets/img/ec2.svg');
 
 export default class Projects extends Component {
 
@@ -31,6 +32,9 @@ export default class Projects extends Component {
                     ): ""}
                     {project.uses.includes("jitsi") ? (
                         <img alt="jitsi logo" src={jitsiLogo} height={50} width={50} />
+                    ):""}
+                    {project.uses.includes("ec2") ? (
+                        <img alt="ec2 logo" src={ec2Logo} height={50} width={50} />
                     ):""}
                 </div>
                 {project && project.github && 

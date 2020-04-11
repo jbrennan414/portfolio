@@ -17,7 +17,7 @@ const projects = [
     {
         "name":"Conference Callz  🖥",
         "description": "Easter is next week and my uncles don't like Google Hangouts or Zoom...so I got to make an instance of Jitsi Meet!",
-        "uses":["jitsi"],
+        "uses":["jitsi", "ec2"],
         "link": "https://conference.johnbrennan.codes",
     },
     // {
