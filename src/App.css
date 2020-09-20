@@ -128,3 +128,7 @@ a {
 .contactIcons {
   float: right;
 }
+
+.dependencies-used {
+  margin:0 1em;
+}

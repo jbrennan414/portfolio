@@ -15,6 +15,13 @@ const projects = [
         "github":"https://github.com/jbrennan414/coronavirus"
     },
     {
+        "name": "GitHub Jobs  💼",
+        "description":"This was a YouTube code-along, using a redis database and a node back-end.",
+        "uses":["react", "redis", "node"],
+        "link":"https://jobs.johnbrennan.codes",
+        "github":"https://github.com/jbrennan414/github_jobs"
+    },
+    {
         "name":"Conference Callz  🖥",
         "description": "Easter is next week and my uncles don't like Google Hangouts or Zoom...so I got to make an instance of Jitsi Meet!",
         "uses":["jitsi", "ec2"],

@@ -9,6 +9,8 @@ const githubLogo = require('../assets/img/github.svg');
 const firebaseLogo = require('../assets/img/firebase.svg');
 const jitsiLogo = require('../assets/img/jitsi.svg');
 const ec2Logo = require('../assets/img/ec2.svg');
+const nodeLogo = require('../assets/img/nodejs.svg');
+const redisLogo = require('../assets/img/redis.svg');
 
 export default class Projects extends Component {
 
@@ -17,24 +19,30 @@ export default class Projects extends Component {
             <a className="projectCard" href={project.link} key={i}>
                 <h2>{project.name}</h2>
                 <h3>{project.description}</h3>
-                <div>
+                <div className={'resources-utilized'}>
                     {project.uses.includes("react") ? (
-                        <img alt="reactLogo" src={reactLogo} height={50} width={50} />
+                        <img className={"dependencies-used"} alt="reactLogo" src={reactLogo} height={50} width={50} />
                     ): ""}
                     {project.uses.includes("redux") ? (
-                        <img alt="reduxLogo" src={reduxLogo} height={50} width={50} />
+                        <img className={"dependencies-used"} alt="reduxLogo" src={reduxLogo} height={50} width={50} />
                     ): ""}
                     {project.uses.includes("socketio") ? (
-                        <img alt="socketIO logo" src={socketIO} height={50} width={50} />
+                        <img className={"dependencies-used"} alt="socketIO logo" src={socketIO} height={50} width={50} />
                     ): ""}
                     {project.uses.includes("firebase") ? (
-                        <img alt="firebase logo" src={firebaseLogo} height={50} width={50} />
+                        <img className={"dependencies-used"} alt="firebase logo" src={firebaseLogo} height={50} width={50} />
                     ): ""}
                     {project.uses.includes("jitsi") ? (
-                        <img alt="jitsi logo" src={jitsiLogo} height={50} width={50} />
+                        <img className={"dependencies-used"} alt="jitsi logo" src={jitsiLogo} height={50} width={50} />
                     ):""}
                     {project.uses.includes("ec2") ? (
-                        <img alt="ec2 logo" src={ec2Logo} height={50} width={50} />
+                        <img className={"dependencies-used"} alt="ec2 logo" src={ec2Logo} height={50} width={50} />
+                    ):""}
+                    {project.uses.includes("node") ? (
+                        <img className={"dependencies-used"} alt="node logo" src={nodeLogo} height={50} width={50} />
+                    ):""}
+                    {project.uses.includes("redis") ? (
+                        <img className={"dependencies-used"} alt="redis logo" src={redisLogo} height={50} width={50} />
                     ):""}
                 </div>
                 {project && project.github && 
