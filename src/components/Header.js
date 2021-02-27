@@ -18,7 +18,7 @@ class Header extends Component {
                     <a href={"https://twitter.com/jbrennan414"}><Twitter /></a>
                     <br />
                     <a href={"https://www.linkedin.com/in/jbrennan414/"}><LinkedIn /></a>
-                    <a href="mailto:jpb55116@gmail.com"><Email /></a>
+                    <a href="mailto:brennanj414@gmail.com"><Email /></a>
                 </div>
             </div>
     );

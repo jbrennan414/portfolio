@@ -110,6 +110,7 @@ a {
 .projectCard {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   border-radius:10px;
   width: 400px;
   margin: 10px;
@@ -131,4 +132,34 @@ a {
 
 .dependencies-used {
   margin:0 1em;
+}
+
+.ribbon {
+  margin: 0;
+  padding: 0;
+  background: rgb(223, 17, 17);
+  color:white;
+  padding:1em 0;
+  /* position: absolute; */
+  top:0;
+  right:0;
+  transform: translateX(57%) translateY(-261%) rotate(45deg);
+  transform-origin: top left;
+}
+.ribbon:before,
+.ribbon:after {
+  content: '';
+  position: absolute;
+  top:0;
+  margin: 0 -1px; /* tweak */
+  width: 100%;
+  height: 100%;
+  background: rgb(223, 17, 17);
+}
+.ribbon:before {
+  right:100%;
+}
+
+.ribbon:after {
+  left:100%;
 }

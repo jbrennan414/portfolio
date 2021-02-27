@@ -17,6 +17,11 @@ export default class Projects extends Component {
     renderProjectCard(project, i){
         return (
             <a className="projectCard" href={project.link} key={i}>
+                
+                {project.under_construction ? (
+                        <h5 className={"ribbon"}>Under construction</h5>
+                    ): ""}
+
                 <h2>{project.name}</h2>
                 <h3>{project.description}</h3>
                 <div className={'resources-utilized'}>
