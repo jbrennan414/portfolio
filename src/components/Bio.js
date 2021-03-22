@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import headshot from "../assets/img/John_Brennan.jpg";
+
 import '../App.css';
 
 export default class Bio extends Component {
     render() {
 
-        const headshot = require('../assets/img/John_Brennan.jpg');
         console.log("trigger a new build")
 
         return (

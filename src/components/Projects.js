@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 import '../App.css';
 import projects from '../data/projects';
 
-const reactLogo = require('../assets/img/react.svg');
-const reduxLogo = require('../assets/img/redux.svg');
-const socketIO = require('../assets/img/socket-io.svg');
-const githubLogo = require('../assets/img/github.svg');
-const firebaseLogo = require('../assets/img/firebase.svg');
-const jitsiLogo = require('../assets/img/jitsi.svg');
-const ec2Logo = require('../assets/img/ec2.svg');
-const nodeLogo = require('../assets/img/nodejs.svg');
-const redisLogo = require('../assets/img/redis.svg');
+import reactLogo from "../assets/img/react.svg";
+import reduxLogo from "../assets/img/redux.svg";
+import socketIO from "../assets/img/socket-io.svg";
+import githubLogo from "../assets/img/github.svg";
+import firebaseLogo from "../assets/img/firebase.svg";
+import jitsiLogo from "../assets/img/jitsi.svg";
+import ec2Logo from "../assets/img/ec2.svg";
+import nodeLogo from "../assets/img/nodejs.svg";
+import redisLogo from "../assets/img/redis.svg";
 
 export default class Projects extends Component {
 

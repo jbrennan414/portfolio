@@ -8,6 +8,14 @@ const projects = [
         "under_construction": false
     },
     {
+        "name": "Ski Scraper 🎿",
+        "description": "This was a passion project I worked on with a colleague after my ski pass began requiring reservations to ski. This bot scraped reservation sites and would send me a Telegram message if I had an available spot!",
+        "uses":["node", "redis"],
+        "link":"https://github.com/jbrennan414/ski-scraper",
+        "github":"https://github.com/jbrennan414/ski-scraper",
+        "under_construction": false
+    },
+    {
         "name": "Coronavirus Tracker 🦠",
         "description": "This is a first pass at a coronavirus tracker, using Wes Bos' code along on youtube. In the coming weeks I hope to add to this!",
         "uses":["react"],
