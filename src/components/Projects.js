@@ -11,6 +11,7 @@ import jitsiLogo from "../assets/img/jitsi.svg";
 import ec2Logo from "../assets/img/ec2.svg";
 import nodeLogo from "../assets/img/nodejs.svg";
 import redisLogo from "../assets/img/redis.svg";
+import youtubeLogo from "../assets/img/youtube.svg";
 
 export default class Projects extends Component {
 
@@ -50,13 +51,22 @@ export default class Projects extends Component {
                         <img className={"dependencies-used"} alt="redis logo" src={redisLogo} height={50} width={50} />
                     ):""}
                 </div>
-                {project && project.github && 
-                    <div className="githubLogo">
-                        <a href={project.github} id="bottle" onClick="document.location=this.id+'.html';return false;" >
-                            <img className="github" alt="github logo" src={githubLogo} height={25} width={25} />
-                        </a>
-                    </div>
-                }
+                <div className={'how-to-find'}>
+                    {project && project.youtube && 
+                        <div className="githubLogo">
+                            <a href={project.youtube} id="youtube_normie" onClick="document.location=https://youtu.be/4CnmTISvu3A;return false;">
+                                <img className="youtube" alt="normal youtube logo" src={youtubeLogo} height={25} width={25} />
+                            </a>
+                        </div>
+                    }
+                    {project && project.github && 
+                        <div className="githubLogo">
+                            <a href={project.github} id="bottle" onClick="document.location=this.id+'.html';return false;" >
+                                <img className="github" alt="github logo" src={githubLogo} height={25} width={25} />
+                            </a>
+                        </div>
+                    }
+                </div>
             </a>
         );
     }

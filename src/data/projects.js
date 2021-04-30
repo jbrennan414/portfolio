@@ -13,6 +13,7 @@ const projects = [
         "uses":["node", "redis"],
         "link":"https://github.com/jbrennan414/ski-scraper",
         "github":"https://github.com/jbrennan414/ski-scraper",
+        "youtube":"https://youtu.be/4CnmTISvu3A",
         "under_construction": false
     },
     {

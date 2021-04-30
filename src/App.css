@@ -48,6 +48,14 @@ html {
   filter: brightness(0%);
 }
 
+.youtube:hover {
+  filter: brightness(0%);
+}
+
+.youtube {
+  margin-right: 10px;
+}
+
 .icons a:hover {
   border: 1px solid black;
 }
@@ -162,4 +170,10 @@ a {
 
 .ribbon:after {
   left:100%;
+}
+
+.how-to-find {
+  display: flex;
+  justify-content: flex-end;
+
 }
