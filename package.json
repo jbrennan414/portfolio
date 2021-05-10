@@ -9,7 +9,7 @@
     "braces": "^3.0.2",
     "immer": ">=8.0.1",
     "kind-of": "^6.0.3",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "node-notifier": ">=8.0.1",
     "object-path": ">=0.11.5",
