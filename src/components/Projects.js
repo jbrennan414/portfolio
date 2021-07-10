@@ -12,6 +12,11 @@ import ec2Logo from "../assets/img/ec2.svg";
 import nodeLogo from "../assets/img/nodejs.svg";
 import redisLogo from "../assets/img/redis.svg";
 import youtubeLogo from "../assets/img/youtube.svg";
+import dynamoLogo from "../assets/img/dynamo.svg";
+import awsLogo from "../assets/img/aws.svg";
+import cognitoLogo from "../assets/img/cognito.svg";
+import lambdaLogo from "../assets/img/lambda.svg";
+import iamLogo from "../assets/img/iam.svg";
 
 export default class Projects extends Component {
 
@@ -49,6 +54,21 @@ export default class Projects extends Component {
                     ):""}
                     {project.uses.includes("redis") ? (
                         <img className={"dependencies-used"} alt="redis logo" src={redisLogo} height={50} width={50} />
+                    ):""}
+                    {project.uses.includes("aws") ? (
+                        <img className={"dependencies-used"} alt="aws logo" src={awsLogo} height={50} width={50} />
+                    ):""}
+                    {project.uses.includes("dynamo") ? (
+                        <img className={"dependencies-used"} alt="dynamo logo" src={dynamoLogo} height={50} width={50} />
+                    ):""}
+                    {project.uses.includes("iam") ? (
+                        <img className={"dependencies-used"} alt="iam logo" src={iamLogo} height={50} width={50} />
+                    ):""}
+                    {project.uses.includes("cognito") ? (
+                        <img className={"dependencies-used"} alt="cognito logo" src={cognitoLogo} height={50} width={50} />
+                    ):""}
+                    {project.uses.includes("lambda") ? (
+                        <img className={"dependencies-used"} alt="lambda logo" src={lambdaLogo} height={50} width={50} />
                     ):""}
                 </div>
                 <div className={'how-to-find'}>

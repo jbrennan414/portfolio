@@ -17,6 +17,13 @@ const projects = [
         "under_construction": false
     },
     {
+        "name": "WildRydes 🦄",
+        "description": "This was an AWS tutorial to learn the basics of a full stack app on AWS. If you need to book a unicorn reservation, this is the app for you!",
+        "uses":["aws", "dynamo", "lambda", "cognito", "iam"],
+        "link":"https://master.d3su1632stz2i2.amplifyapp.com/",
+        "under_construction": false
+    },
+    {
         "name": "Coronavirus Tracker 🦠",
         "description": "This is a first pass at a coronavirus tracker, using Wes Bos' code along on youtube. In the coming weeks I hope to add to this!",
         "uses":["react"],
