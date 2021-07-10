@@ -140,6 +140,9 @@ a {
 
 .dependencies-used {
   margin:0 1em;
+  overflow: hidden;
+  flex-shrink: 3;
+  justify-content: center;
 }
 
 .ribbon {
@@ -175,5 +178,10 @@ a {
 .how-to-find {
   display: flex;
   justify-content: flex-end;
+}
 
+.resources-utilized {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 3;
 }
