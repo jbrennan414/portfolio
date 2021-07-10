@@ -37,7 +37,7 @@ const projects = [
         "uses":["react", "redis", "node"],
         "link":"https://jobs.johnbrennan.codes",
         "github":"https://github.com/jbrennan414/github_jobs",
-        "under_construction": false
+        "under_construction": true
     },
     {
         "name":"Conference Callz  🖥",
