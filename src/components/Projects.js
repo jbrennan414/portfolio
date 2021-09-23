@@ -17,6 +17,7 @@ import awsLogo from "../assets/img/aws.svg";
 import cognitoLogo from "../assets/img/cognito.svg";
 import lambdaLogo from "../assets/img/lambda.svg";
 import iamLogo from "../assets/img/iam.svg";
+import swiftLogo from "../assets/img/swift.svg";
 
 export default class Projects extends Component {
 
@@ -69,6 +70,9 @@ export default class Projects extends Component {
                     ):""}
                     {project.uses.includes("lambda") ? (
                         <img className={"dependencies-used"} alt="lambda logo" src={lambdaLogo} height={50} width={50} />
+                    ):""}
+                    {project.uses.includes("swift") ? (
+                        <img className={"dependencies-used"} alt="swift logo" src={swiftLogo} height={50} width={50} />
                     ):""}
                 </div>
                 <div className={'how-to-find'}>

@@ -17,6 +17,14 @@ const projects = [
         "under_construction": false
     },
     {
+        "name": "CurrenSee 💶",
+        "description": "CurrenSee is a proof that I could successfully get something onto the Apple App Store, here is proof!",
+        "uses":["swift"],
+        "link":"https://apps.apple.com/us/app/currensee-exchange-rates/id1585448045?ign-mpt=uo%3D2",
+        "github":"https://github.com/jbrennan414/currensee",
+        "under_construction": false
+    },
+    {
         "name": "WildRydes 🦄",
         "description": "This was an AWS tutorial to learn the basics of a full stack app on AWS. If you need to book a unicorn reservation, this is the app for you!",
         "uses":["aws", "dynamo", "lambda", "cognito", "iam"],
