@@ -5,7 +5,7 @@ const projects = [
         "uses":["react","firebase", "redux"],
         "link":"https://whereillbe.com/",
         "github":"https://github.com/jbrennan414/where-ill-be",
-        "under_construction": false
+        "under_construction": true
     },
     {
         "name": "Ski Scraper 🎿",
@@ -22,6 +22,7 @@ const projects = [
         "uses":["swift"],
         "link":"https://apps.apple.com/us/app/currensee-exchange-rates/id1585448045?ign-mpt=uo%3D2",
         "github":"https://github.com/jbrennan414/currensee",
+        "youtube":"https://www.youtube.com/watch?v=y9hC8f9dm_U",
         "under_construction": false
     },
     {
@@ -39,14 +40,14 @@ const projects = [
         "github":"https://github.com/jbrennan414/coronavirus",
         "under_construction": false
     },
-    {
-        "name": "GitHub Jobs  💼",
-        "description":"This was a YouTube code-along, using a redis database and a node back-end.",
-        "uses":["react", "redis", "node"],
-        "link":"https://jobs.johnbrennan.codes",
-        "github":"https://github.com/jbrennan414/github_jobs",
-        "under_construction": true
-    },
+    // {
+    //     "name": "GitHub Jobs  💼",
+    //     "description":"This was a YouTube code-along, using a redis database and a node back-end.",
+    //     "uses":["react", "redis", "node"],
+    //     "link":"https://jobs.johnbrennan.codes",
+    //     "github":"https://github.com/jbrennan414/github_jobs",
+    //     "under_construction": true
+    // },
     {
         "name":"Conference Callz  🖥",
         "description": "Easter is next week and my uncles don't like Google Hangouts or Zoom...so I got to make an instance of Jitsi Meet!",
