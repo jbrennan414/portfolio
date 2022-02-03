@@ -13,6 +13,7 @@
     "is-svg": ">=4.2.2",
     "kind-of": "^6.0.3",
     "lodash": "^4.17.20",
+    "glob-parent": ">=5.1.2",
     "minimist": "^1.2.5",
     "node-notifier": ">=8.0.1",
     "object-path": ">=0.11.5",
