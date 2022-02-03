@@ -48,13 +48,13 @@ const projects = [
     //     "github":"https://github.com/jbrennan414/github_jobs",
     //     "under_construction": true
     // },
-    {
-        "name":"Conference Callz  🖥",
-        "description": "Easter is next week and my uncles don't like Google Hangouts or Zoom...so I got to make an instance of Jitsi Meet!",
-        "uses":["jitsi", "ec2"],
-        "link": "https://conference.johnbrennan.codes",
-        "under_construction": true,
-    },
+    // {
+    //     "name":"Conference Callz  🖥",
+    //     "description": "Easter is next week and my uncles don't like Google Hangouts or Zoom...so I got to make an instance of Jitsi Meet!",
+    //     "uses":["jitsi", "ec2"],
+    //     "link": "https://conference.johnbrennan.codes",
+    //     "under_construction": true,
+    // },
     // {
     //     "name": "CountMeIn",
     //     "description": "🏈 A clone of Meetup.com, for pickup sports!",
